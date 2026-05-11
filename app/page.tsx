@@ -1,101 +1,17 @@
 "use client";
-import { useState, useMemo, useRef } from "react";
-import { Check, Sparkles, Heart, AlertTriangle, Baby, Tag, PackageSearch, Gauge } from "lucide-react";
+import { useState, useMemo, useRef, useEffect } from "react";
+import { Check, Sparkles, Heart, AlertTriangle, Baby, Tag, PackageSearch, Gauge, Star } from "lucide-react";
 import AdFit from "@/app/components/AdFit";
+import FavoritesTab, { type Favorite } from "@/app/components/FavoritesTab";
+import CalculatorTab from "@/app/components/CalculatorTab";
+import GuideTab from "@/app/components/GuideTab";
+import { CATEGORIES, type FormulaCategory } from "@/app/lib/categories";
 import makersData from "@/data/makers.json";
 import formulasData from "@/data/formulas.json";
 import settingsData from "@/data/settings.json";
 
 type Maker = typeof makersData.makers[0];
 type Formula = typeof formulasData.formulas[0];
-
-type FormulaCategory = {
-  label: string;
-  icon: string;
-  features: string[];
-  forWho: string;
-};
-
-const CATEGORIES: Record<string, FormulaCategory> = {
-  premature: {
-    label: "이른둥이용",
-    icon: "🏥",
-    features: ["고열량 특수 설계", "단백질·미네랄 강화", "미숙아 전용 조제"],
-    forWho: "이른둥이(미숙아), 저체중 출생 아기",
-  },
-  diarrhea: {
-    label: "설사 완화용",
-    icon: "💊",
-    features: ["삼투압 조절", "전해질 균형 보충", "장 회복 지원"],
-    forWho: "설사 증상이 있는 아기, 장 회복이 필요한 아기",
-  },
-  lactose_free: {
-    label: "유당 미함유",
-    icon: "🚫",
-    features: ["유당(락토오스) 미함유", "소화 불편 완화", "특수 의료용 조제"],
-    forWho: "유당불내증이 있는 아기, 설사 후 회복기 아기",
-  },
-  soy: {
-    label: "식물성(대두)",
-    icon: "🌱",
-    features: ["식물성 대두 단백질", "유당 미함유", "우유 단백질 대체"],
-    forWho: "우유 단백질 알레르기, 유당불내증 아기",
-  },
-  ha: {
-    label: "가수분해 단백질",
-    icon: "🧬",
-    features: ["고도 가수분해 단백질", "알레르기 위험 감소", "소화 부담 최소화"],
-    forWho: "알레르기 고위험군, 아토피 우려 있는 아기",
-  },
-  ar: {
-    label: "역류 방지",
-    icon: "⬇️",
-    features: ["점성 증가 설계", "역류·게움 억제", "전분 강화"],
-    forWho: "역류나 게움이 잦은 아기",
-  },
-  comfort: {
-    label: "소화 편안",
-    icon: "😌",
-    features: ["유당 저감화", "부분 가수분해 단백질", "가스·배앓이 완화"],
-    forWho: "배앓이·가스·변비가 심한 아기",
-  },
-  sensitive: {
-    label: "저자극",
-    icon: "🌿",
-    features: ["부분 가수분해 단백질", "소화 부담 감소", "장 트러블 감소"],
-    forWho: "소화가 예민하거나 배앓이 있는 아기",
-  },
-  goat: {
-    label: "산양분유",
-    icon: "🐐",
-    features: ["산양유 단백질", "α-카제인 함량 낮음", "부드러운 소화"],
-    forWho: "일반 분유에 예민하거나 소화 불편을 겪는 아기",
-  },
-  organic: {
-    label: "유기농",
-    icon: "🌾",
-    features: ["유기농 인증 원료", "무농약·무항생제", "자연 친화 성분"],
-    forWho: "유기농 성분을 중시하는 부모",
-  },
-  hmo: {
-    label: "HMO·2'FL 함유",
-    icon: "🍼",
-    features: ["모유 올리고당(HMO/2'-FL) 함유", "장내 유익균 증진", "면역력 강화"],
-    forWho: "모유와 유사한 성분을 원하는 경우",
-  },
-  premium: {
-    label: "프리미엄",
-    icon: "⭐",
-    features: ["프리미엄 원료", "DHA·ARA 강화", "종합 영양 설계"],
-    forWho: "최고급 영양 성분을 원하는 부모",
-  },
-  standard: {
-    label: "일반 조제분유",
-    icon: "👶",
-    features: ["균형 잡힌 영양", "DHA·철분 함유", "성장 발달 지원"],
-    forWho: "건강한 일반 아기",
-  },
-};
 
 function getFormulaCategory(product: string, formulaLine: string): FormulaCategory {
   const t = `${product} ${formulaLine}`.toLowerCase();
@@ -121,11 +37,66 @@ export default function Home() {
   const [selectedMaker, setSelectedMaker] = useState<Maker | null>(null);
   const [selectedBrand, setSelectedBrand] = useState<string | null>(null);
   const [selectedFormula, setSelectedFormula] = useState<Formula | null>(null);
+  const [activeTab, setActiveTab] = useState<'home' | 'favorites' | 'calculator' | 'guide'>('home');
+  const [favorites, setFavorites] = useState<Favorite[]>([]);
   const formulaRef = useRef<HTMLElement>(null);
   const resultRef = useRef<HTMLElement>(null);
 
   const makers = makersData.makers;
   const formulas = formulasData.formulas;
+
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem('formula-favorites');
+      if (stored) setFavorites(JSON.parse(stored));
+    } catch {}
+  }, []);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('formula-favorites', JSON.stringify(favorites));
+    } catch {}
+  }, [favorites]);
+
+  const isFavorite = (makerId: string, formulaId: string) =>
+    favorites.some((f) => f.makerId === makerId && f.formulaId === formulaId);
+
+  const toggleFavorite = () => {
+    if (!selectedMaker || !selectedFormula) return;
+    if (isFavorite(selectedMaker.id, selectedFormula.id)) {
+      setFavorites((prev) => prev.filter(
+        (f) => !(f.makerId === selectedMaker.id && f.formulaId === selectedFormula.id)
+      ));
+    } else {
+      const fav: Favorite = {
+        makerId: selectedMaker.id,
+        makerBrand: selectedMaker.brand,
+        makerModel: selectedMaker.model_short,
+        formulaId: selectedFormula.id,
+        formulaProduct: selectedFormula.product,
+        formulaBrand: selectedFormula.brand,
+        settingValue: settingValue,
+      };
+      setFavorites((prev) => [...prev, fav]);
+    }
+  };
+
+  const handleLoadFavorite = (makerId: string, formulaId: string) => {
+    const maker = makers.find((m) => m.id === makerId);
+    const formula = formulas.find((f) => f.id === formulaId);
+    if (maker && formula) {
+      setSelectedMaker(maker);
+      setSelectedBrand(formula.brand);
+      setSelectedFormula(formula);
+      setActiveTab('home');
+    }
+  };
+
+  const handleRemoveFavorite = (formulaId: string, makerId: string) => {
+    setFavorites((prev) => prev.filter(
+      (f) => !(f.makerId === makerId && f.formulaId === formulaId)
+    ));
+  };
 
   const settingValue = useMemo(() => {
     if (!selectedMaker || !selectedFormula) return null;
@@ -224,10 +195,42 @@ export default function Home() {
             <p className="text-xs text-gray-400 hidden sm:block">제조기 세팅번호를 빠르게 찾아보세요</p>
           </div>
         </div>
+        {/* 탭 바 */}
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 flex gap-1 overflow-x-auto">
+          {([
+            { key: 'home', label: '🔍 세팅 찾기' },
+            { key: 'favorites', label: '⭐ 즐겨찾기' },
+            { key: 'calculator', label: '💧 계산기' },
+            { key: 'guide', label: '📋 가이드' },
+          ] as const).map(({ key, label }) => (
+            <button
+              key={key}
+              onClick={() => setActiveTab(key)}
+              className={`px-4 py-2 text-sm font-semibold whitespace-nowrap border-b-2 transition-colors ${
+                activeTab === key
+                  ? 'border-pink-500 text-pink-600'
+                  : 'border-transparent text-gray-500 hover:text-pink-500 hover:border-pink-300'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
       </header>
 
-      {/* ── 2단 레이아웃 ── */}
-      <div className="max-w-screen-xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
+      {/* ── 탭별 렌더링 ── */}
+      {activeTab === 'favorites' && (
+        <FavoritesTab
+          favorites={favorites}
+          onLoad={handleLoadFavorite}
+          onRemove={handleRemoveFavorite}
+        />
+      )}
+      {activeTab === 'calculator' && <CalculatorTab />}
+      {activeTab === 'guide' && <GuideTab />}
+
+      {/* ── 2단 레이아웃 (home 탭) ── */}
+      <div className={`max-w-screen-xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)] ${activeTab !== 'home' ? 'hidden' : ''}`}>
 
         {/* ════ 사이드바: STEP 1 + STEP 2 ════ */}
         <aside className="lg:w-72 xl:w-80 lg:flex-shrink-0 lg:sticky lg:top-[57px] lg:self-start lg:h-[calc(100vh-57px)] lg:overflow-y-auto lg:border-r lg:border-pink-100/80 px-4 sm:px-6 lg:px-5 pt-6 pb-4 space-y-7">
@@ -419,8 +422,20 @@ export default function Home() {
                 </div>
 
                 <div className="px-6 pb-6 space-y-5">
-                  {/* 제품명 */}
-                  <p className="text-sm font-semibold text-gray-700 text-center pt-1">{selectedFormula.product}</p>
+                  {/* 제품명 + 즐겨찾기 */}
+                  <div className="flex items-center gap-2 pt-1">
+                    <p className="text-sm font-semibold text-gray-700 flex-1 text-center">{selectedFormula.product}</p>
+                    <button
+                      onClick={toggleFavorite}
+                      className={`p-1.5 rounded-xl border transition-all ${
+                        isFavorite(selectedMaker.id, selectedFormula.id)
+                          ? 'border-yellow-300 bg-yellow-50 text-yellow-500'
+                          : 'border-gray-200 bg-white text-gray-400 hover:border-yellow-300 hover:text-yellow-500'
+                      }`}
+                    >
+                      <Star size={16} fill={isFavorite(selectedMaker.id, selectedFormula.id) ? 'currentColor' : 'none'} />
+                    </button>
+                  </div>
 
                   {/* 세팅 번호 */}
                   {settingValue !== null ? (
@@ -459,7 +474,7 @@ export default function Home() {
                         <p className="text-xs font-bold text-gray-600">분유 특징</p>
                       </div>
                       <ul className="space-y-1.5">
-                        {cat.features.map((feat) => (
+                        {cat.features.map((feat: string) => (
                           <li key={feat} className="flex items-start gap-2 text-xs text-gray-700">
                             <span className="w-1.5 h-1.5 rounded-full bg-pink-400 mt-1.5 flex-shrink-0" />
                             {feat}
