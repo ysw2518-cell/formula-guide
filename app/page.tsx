@@ -1,6 +1,7 @@
 "use client";
 import { useState, useMemo, useRef } from "react";
 import { Check, Sparkles, Heart, AlertTriangle, Baby, Tag, PackageSearch, Gauge } from "lucide-react";
+import AdFit from "@/app/components/AdFit";
 import makersData from "@/data/makers.json";
 import formulasData from "@/data/formulas.json";
 import settingsData from "@/data/settings.json";
@@ -215,7 +216,7 @@ export default function Home() {
       </header>
 
       {/* ── 2단 레이아웃 ── */}
-      <div className="max-w-7xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
+      <div className="max-w-7xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)] lg:items-start">
 
         {/* ════ 사이드바: STEP 1 + STEP 2 ════ */}
         <aside className="lg:w-72 xl:w-80 lg:flex-shrink-0 lg:sticky lg:top-[57px] lg:self-start lg:h-[calc(100vh-57px)] lg:overflow-y-auto lg:border-r lg:border-pink-100/80 px-4 sm:px-6 lg:px-5 pt-6 pb-4 space-y-7">
@@ -464,6 +465,14 @@ export default function Home() {
             <p>실제 사용 전 제조사 공식 앱을 반드시 확인하세요.</p>
           </div>
         </main>
+
+        {/* ════ 우측 광고 컬럼 (PC only) ════ */}
+        <aside className="hidden lg:flex flex-col items-center pt-8 px-4 w-[320px] flex-shrink-0">
+          <div className="sticky top-[73px]">
+            <p className="text-[10px] text-gray-300 text-center mb-1">광고</p>
+            <AdFit />
+          </div>
+        </aside>
       </div>
     </div>
   );

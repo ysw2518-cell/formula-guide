@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Jua } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const jua = Jua({
@@ -24,7 +25,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body className={jua.className}>{children}</body>
+      <body className={jua.className}>
+        {children}
+        <Script src="//t1.kakaocdn.net/kas/static/ba.min.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }
