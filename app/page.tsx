@@ -458,9 +458,11 @@ export default function Home() {
             );
           })()}
 
-          <p className="text-xs text-center text-gray-300">
-            세팅 정보는 베이비브레짜 코리아 공식 데이터 기준입니다
-          </p>
+          <div className="text-xs text-center text-gray-400 space-y-1 pt-2 border-t border-gray-100">
+            <p>세팅 정보는 베이비브레짜 코리아 및 브라비 코리아 공식 데이터 기준입니다.</p>
+            <p>이 사이트는 각 제조사의 공식 데이터를 기반으로 제작된 비공식 참고 서비스로, 베이비브레짜·브라비와 운영상 무관합니다.</p>
+            <p>실제 사용 전 제조사 공식 앱을 반드시 확인하세요.</p>
+          </div>
         </main>
       </div>
     </div>
