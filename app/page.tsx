@@ -200,7 +200,59 @@ export default function Home() {
   const STEP_ICON = [Baby, Tag, PackageSearch, Gauge];
 
   return (
-    <div className="min-h-screen" style={{ background: "linear-gradient(135deg, #FFF0F5 0%, #FAF8FF 50%, #F0F4FF 100%)" }}>
+    <div className="min-h-screen">
+
+      {/* ── 고정 배경: 그라데이션 + 베이비 패턴 ── */}
+      <div className="fixed inset-0 pointer-events-none" style={{ zIndex: -1 }}>
+        <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #FFF0F5 0%, #FAF8FF 50%, #F0F4FF 100%)" }} />
+        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="babyPattern" x="0" y="0" width="220" height="220" patternUnits="userSpaceOnUse">
+              {/* 분유병 */}
+              <g transform="translate(22,18) rotate(-15, 15, 20)" fill="#f472b6" opacity="0.08">
+                <ellipse cx="15" cy="2" rx="3.5" ry="2" />
+                <rect x="11" y="3.5" width="8" height="6" rx="2" />
+                <rect x="7" y="9" width="16" height="26" rx="8" />
+              </g>
+              {/* 쪽쪽이 */}
+              <g transform="translate(130,35) rotate(20, 15, 15)" opacity="0.08">
+                <circle cx="15" cy="13" r="9" fill="none" stroke="#a855f7" strokeWidth="2.5" />
+                <ellipse cx="15" cy="13" rx="5" ry="4" fill="#a855f7" />
+                <ellipse cx="15" cy="22" rx="2.5" ry="5.5" fill="#a855f7" />
+              </g>
+              {/* 곰돌이 */}
+              <g transform="translate(50,120) rotate(6, 16, 18)" fill="#fb7185" opacity="0.08">
+                <circle cx="7" cy="8" r="6.5" />
+                <circle cx="25" cy="8" r="6.5" />
+                <circle cx="16" cy="19" r="12" />
+                <circle cx="7" cy="8" r="4" fill="#ffe4e6" />
+                <circle cx="25" cy="8" r="4" fill="#ffe4e6" />
+              </g>
+              {/* 분유병 (작은) */}
+              <g transform="translate(165,145) rotate(25, 12, 17)" fill="#c084fc" opacity="0.07">
+                <ellipse cx="12" cy="1.5" rx="2.8" ry="1.5" />
+                <rect x="9" y="2.5" width="6" height="5" rx="1.5" />
+                <rect x="5.5" y="7" width="13" height="20" rx="6.5" />
+              </g>
+              {/* 쪽쪽이 (작은) */}
+              <g transform="translate(15,165) rotate(-10, 12, 13)" opacity="0.07">
+                <circle cx="12" cy="10" r="7.5" fill="none" stroke="#f472b6" strokeWidth="2" />
+                <ellipse cx="12" cy="10" rx="4" ry="3.5" fill="#f472b6" />
+                <ellipse cx="12" cy="17" rx="2" ry="4.5" fill="#f472b6" />
+              </g>
+              {/* 곰돌이 (작은) */}
+              <g transform="translate(152,80) rotate(-5, 13, 16)" fill="#f472b6" opacity="0.065">
+                <circle cx="6" cy="6.5" r="5.5" />
+                <circle cx="20" cy="6.5" r="5.5" />
+                <circle cx="13" cy="16" r="10" />
+                <circle cx="6" cy="6.5" r="3.5" fill="#ffe4e6" />
+                <circle cx="20" cy="6.5" r="3.5" fill="#ffe4e6" />
+              </g>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#babyPattern)" />
+        </svg>
+      </div>
 
       {/* ── 헤더 ── */}
       <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm">
