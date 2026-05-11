@@ -19,8 +19,8 @@
       "model_short": "브라비 플러스",
       "origin": "한국",
       "image_url": "/images/makers/burabi-plus.jpg",
-      "features": ["직수 연결", "281개 분유 호환", "세팅번호 1~17", "앱 연동"],
-      "setting_range": { "min": 1, "max": 17 }
+      "features": ["직수 연결", "281개 분유 호환", "세팅번호 13~22", "앱 연동"],
+      "setting_range": { "min": 13, "max": 22 }
     }
   ]
 }

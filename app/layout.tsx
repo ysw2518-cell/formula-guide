@@ -1,5 +1,12 @@
 import type { Metadata, Viewport } from "next";
+import { Jua } from "next/font/google";
 import "./globals.css";
+
+const jua = Jua({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "분유 세팅 가이드",
@@ -17,7 +24,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body className={jua.className}>{children}</body>
     </html>
   );
 }
