@@ -230,7 +230,7 @@ export default function Home() {
       {activeTab === 'guide' && <GuideTab />}
 
       {/* ── 2단 레이아웃 (home 탭) ── */}
-      <div className={`max-w-screen-xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)] ${activeTab !== 'home' ? 'hidden' : ''}`}>
+      {activeTab === 'home' && <div className="max-w-screen-xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
 
         {/* ════ 사이드바: STEP 1 + STEP 2 ════ */}
         <aside className="lg:w-72 xl:w-80 lg:flex-shrink-0 lg:sticky lg:top-[57px] lg:self-start lg:h-[calc(100vh-57px)] lg:overflow-y-auto lg:border-r lg:border-pink-100/80 px-4 sm:px-6 lg:px-5 pt-6 pb-4 space-y-7">
@@ -505,7 +505,7 @@ export default function Home() {
           </div>
         </main>
 
-      </div>
+      </div>}
     </div>
   );
 }
