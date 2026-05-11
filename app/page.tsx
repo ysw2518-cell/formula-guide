@@ -204,7 +204,7 @@ export default function Home() {
 
       {/* ── 헤더 ── */}
       <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-3">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-3">
           <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-pink-500 to-rose-500 flex items-center justify-center shadow-md flex-shrink-0">
             <Baby size={18} className="text-white" />
           </div>
@@ -216,7 +216,7 @@ export default function Home() {
       </header>
 
       {/* ── 2단 레이아웃 ── */}
-      <div className="max-w-6xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
+      <div className="max-w-screen-xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
 
         {/* ════ 사이드바: STEP 1 + STEP 2 ════ */}
         <aside className="lg:w-72 xl:w-80 lg:flex-shrink-0 lg:sticky lg:top-[57px] lg:self-start lg:h-[calc(100vh-57px)] lg:overflow-y-auto lg:border-r lg:border-pink-100/80 px-4 sm:px-6 lg:px-5 pt-6 pb-4 space-y-7">
@@ -327,7 +327,7 @@ export default function Home() {
                 <h2 className="text-sm font-bold text-gray-700">분유 선택</h2>
                 <span className="ml-auto text-xs text-gray-400 bg-white border border-gray-200 px-2 py-0.5 rounded-full">{formulasForBrand.length}종</span>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-3">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {formulasForBrand.map((f) => {
                   const settingNo = getSettingNo(f.id);
                   const hasSetting = settingNo !== null;
