@@ -216,7 +216,7 @@ export default function Home() {
       </header>
 
       {/* ── 2단 레이아웃 ── */}
-      <div className="max-w-7xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)] lg:items-start">
+      <div className="max-w-7xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
 
         {/* ════ 사이드바: STEP 1 + STEP 2 ════ */}
         <aside className="lg:w-72 xl:w-80 lg:flex-shrink-0 lg:sticky lg:top-[57px] lg:self-start lg:h-[calc(100vh-57px)] lg:overflow-y-auto lg:border-r lg:border-pink-100/80 px-4 sm:px-6 lg:px-5 pt-6 pb-4 space-y-7">
@@ -306,6 +306,12 @@ export default function Home() {
               <p className="text-xs">제조기를 선택하면<br />브랜드가 나타납니다</p>
             </div>
           )}
+
+          {/* 광고 */}
+          <div className="pt-4 border-t border-pink-100/80">
+            <p className="text-[10px] text-gray-300 text-center mb-1">광고</p>
+            <AdFit />
+          </div>
         </aside>
 
         {/* ════ 메인: STEP 3 + STEP 4 ════ */}
@@ -466,13 +472,6 @@ export default function Home() {
           </div>
         </main>
 
-        {/* ════ 우측 광고 컬럼 (PC only) ════ */}
-        <aside className="hidden lg:flex flex-col items-center pt-8 px-4 w-[320px] flex-shrink-0">
-          <div className="sticky top-[73px]">
-            <p className="text-[10px] text-gray-300 text-center mb-1">광고</p>
-            <AdFit />
-          </div>
-        </aside>
       </div>
     </div>
   );
