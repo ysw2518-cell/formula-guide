@@ -204,7 +204,7 @@ export default function Home() {
 
       {/* ── 헤더 ── */}
       <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-3">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-3">
           <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-pink-500 to-rose-500 flex items-center justify-center shadow-md flex-shrink-0">
             <Baby size={18} className="text-white" />
           </div>
@@ -216,7 +216,7 @@ export default function Home() {
       </header>
 
       {/* ── 2단 레이아웃 ── */}
-      <div className="max-w-7xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
+      <div className="max-w-6xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
 
         {/* ════ 사이드바: STEP 1 + STEP 2 ════ */}
         <aside className="lg:w-72 xl:w-80 lg:flex-shrink-0 lg:sticky lg:top-[57px] lg:self-start lg:h-[calc(100vh-57px)] lg:overflow-y-auto lg:border-r lg:border-pink-100/80 px-4 sm:px-6 lg:px-5 pt-6 pb-4 space-y-7">
@@ -317,7 +317,9 @@ export default function Home() {
         {/* ════ 메인: STEP 3 + STEP 4 ════ */}
         <main className="flex-1 min-w-0 px-4 sm:px-6 lg:px-8 pt-6 pb-10 space-y-8">
 
+          <div className="lg:flex lg:gap-6 lg:items-start">
           {/* ── STEP 3: 분유 선택 ── */}
+          <div className="lg:w-1/2 lg:min-w-0">
           {selectedMaker && selectedBrand ? (
             <section>
               <div className="flex items-center gap-2 mb-4">
@@ -387,7 +389,9 @@ export default function Home() {
             </div>
           )}
 
+          </div>
           {/* ── STEP 4: 결과 ── */}
+          <div className="lg:w-1/2 lg:min-w-0">
           {selectedMaker && selectedFormula && (() => {
             const cat = getFormulaCategory(selectedFormula.product, (selectedFormula as any).formula_line ?? "");
             return (
@@ -464,6 +468,9 @@ export default function Home() {
               </section>
             );
           })()}
+
+          </div>
+          </div>
 
           <div className="text-xs text-center text-gray-400 space-y-1 pt-2 border-t border-gray-100">
             <p>세팅 정보는 베이비브레짜 코리아 및 브라비 코리아 공식 데이터 기준입니다.</p>
