@@ -227,7 +227,7 @@ export default function Home() {
         />
       )}
       {activeTab === 'calculator' && <CalculatorTab />}
-      {activeTab === 'guide' && <GuideTab />}
+      {activeTab === 'guide' && <GuideTab formulas={formulas} getCategory={getFormulaCategory} />}
 
       {/* ── 2단 레이아웃 (home 탭) ── */}
       {activeTab === 'home' && <div className="max-w-screen-xl mx-auto lg:flex lg:min-h-[calc(100vh-57px)]">
@@ -376,8 +376,11 @@ export default function Home() {
                         <p className="text-xs font-semibold text-gray-800 leading-snug line-clamp-2">{f.product}</p>
                         {f.stage && <p className="text-[11px] text-gray-400 mt-0.5">{f.stage}</p>}
                         {hasSetting && settingNo !== null && (
-                          <div className={`mt-2 inline-flex items-center px-2 py-0.5 rounded-full border text-xs font-bold ${settingBgColor(settingNo)} ${settingColor(settingNo)}`}>
-                            세팅 {settingNo}
+                          <div className="mt-2 flex items-center gap-1.5 flex-wrap">
+                            <div className={`inline-flex items-center px-2 py-0.5 rounded-full border text-xs font-bold ${settingBgColor(settingNo)} ${settingColor(settingNo)}`}>
+                              세팅 {settingNo}
+                            </div>
+                            <span className="text-[10px] text-orange-400 font-medium">{(f as any).kcal_per_100ml}kcal</span>
                           </div>
                         )}
                         {!hasSetting && <p className="text-[11px] text-gray-300 mt-1">정보없음</p>}
@@ -442,6 +445,10 @@ export default function Home() {
                     <div className="text-center space-y-3">
                       <div className={`text-[110px] font-black leading-none tracking-tighter ${settingColor(settingValue)}`} style={{ textShadow: "0 4px 24px rgba(0,0,0,0.08)" }}>
                         {settingValue}
+                      </div>
+                      <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
+                        <span className="font-semibold text-orange-500">{(selectedFormula as any).kcal_per_100ml} kcal</span>
+                        <span>/ 100ml 기준</span>
                       </div>
                       <p className="text-xs text-gray-400">
                         범위 {selectedMaker.setting_range?.min ?? "?"} ~ {selectedMaker.setting_range?.max ?? "?"}

@@ -8,7 +8,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f615.png"
+      "image_url": "/images/formulas2/f615.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f614",
@@ -18,7 +19,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f614.png"
+      "image_url": "/images/formulas2/f614.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f524",
@@ -28,7 +30,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f524.png"
+      "image_url": "/images/formulas2/f524.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f617",
@@ -38,7 +41,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f617.png"
+      "image_url": "/images/formulas2/f617.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f616",
@@ -48,7 +52,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f616.png"
+      "image_url": "/images/formulas2/f616.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f527",
@@ -58,7 +63,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f527.png"
+      "image_url": "/images/formulas2/f527.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f673",
@@ -68,7 +74,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f673.png"
+      "image_url": "/images/formulas2/f673.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f672",
@@ -78,7 +85,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f672.png"
+      "image_url": "/images/formulas2/f672.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f671",
@@ -88,7 +96,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f671.png"
+      "image_url": "/images/formulas2/f671.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f766",
@@ -98,7 +107,8 @@
       "stage": "100일",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f766.png"
+      "image_url": "/images/formulas2/f766.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f730",
@@ -108,7 +118,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f730.png"
+      "image_url": "/images/formulas2/f730.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f729",
@@ -118,7 +129,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f729.png"
+      "image_url": "/images/formulas2/f729.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f728",
@@ -128,7 +140,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f728.png"
+      "image_url": "/images/formulas2/f728.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f630",
@@ -138,7 +151,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f630.png"
+      "image_url": "/images/formulas2/f630.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f629",
@@ -148,7 +162,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f629.png"
+      "image_url": "/images/formulas2/f629.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f628",
@@ -158,7 +173,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f628.png"
+      "image_url": "/images/formulas2/f628.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f633",
@@ -168,7 +184,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f633.png"
+      "image_url": "/images/formulas2/f633.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f632",
@@ -178,7 +195,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f632.png"
+      "image_url": "/images/formulas2/f632.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f631",
@@ -188,7 +206,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f631.png"
+      "image_url": "/images/formulas2/f631.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f712",
@@ -198,7 +217,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f712.png"
+      "image_url": "/images/formulas2/f712.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f711",
@@ -208,7 +228,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f711.png"
+      "image_url": "/images/formulas2/f711.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f710",
@@ -218,7 +239,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f710.png"
+      "image_url": "/images/formulas2/f710.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f708",
@@ -228,7 +250,8 @@
       "stage": "",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f708.png"
+      "image_url": "/images/formulas2/f708.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f662",
@@ -238,7 +261,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f662.png"
+      "image_url": "/images/formulas2/f662.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f646",
@@ -248,7 +272,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f646.png"
+      "image_url": "/images/formulas2/f646.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f645",
@@ -258,7 +283,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f645.png"
+      "image_url": "/images/formulas2/f645.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f663",
@@ -268,7 +294,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f663.png"
+      "image_url": "/images/formulas2/f663.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f650",
@@ -278,7 +305,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f650.png"
+      "image_url": "/images/formulas2/f650.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f649",
@@ -288,7 +316,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f649.png"
+      "image_url": "/images/formulas2/f649.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f648",
@@ -298,7 +327,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f648.png"
+      "image_url": "/images/formulas2/f648.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f743",
@@ -308,7 +338,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f743.png"
+      "image_url": "/images/formulas2/f743.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f742",
@@ -318,7 +349,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f742.png"
+      "image_url": "/images/formulas2/f742.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f741",
@@ -328,7 +360,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "네덜란드/독일",
-      "image_url": "/images/formulas2/f741.png"
+      "image_url": "/images/formulas2/f741.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f580",
@@ -338,7 +371,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f580.png"
+      "image_url": "/images/formulas2/f580.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f579",
@@ -348,7 +382,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f579.png"
+      "image_url": "/images/formulas2/f579.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f578",
@@ -358,7 +393,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f578.png"
+      "image_url": "/images/formulas2/f578.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f583",
@@ -368,7 +404,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f583.png"
+      "image_url": "/images/formulas2/f583.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f582",
@@ -378,7 +415,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f582.png"
+      "image_url": "/images/formulas2/f582.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f581",
@@ -388,7 +426,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f581.png"
+      "image_url": "/images/formulas2/f581.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f586",
@@ -398,7 +437,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f586.png"
+      "image_url": "/images/formulas2/f586.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f585",
@@ -408,7 +448,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f585.png"
+      "image_url": "/images/formulas2/f585.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f584",
@@ -418,7 +459,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f584.png"
+      "image_url": "/images/formulas2/f584.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f589",
@@ -428,7 +470,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f589.png"
+      "image_url": "/images/formulas2/f589.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f588",
@@ -438,7 +481,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f588.png"
+      "image_url": "/images/formulas2/f588.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f587",
@@ -448,7 +492,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f587.png"
+      "image_url": "/images/formulas2/f587.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f592",
@@ -458,7 +503,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f592.png"
+      "image_url": "/images/formulas2/f592.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f591",
@@ -468,7 +514,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f591.png"
+      "image_url": "/images/formulas2/f591.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f590",
@@ -478,7 +525,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f590.png"
+      "image_url": "/images/formulas2/f590.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f764",
@@ -488,7 +536,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f764.png"
+      "image_url": "/images/formulas2/f764.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f763",
@@ -498,7 +547,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f763.png"
+      "image_url": "/images/formulas2/f763.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f762",
@@ -508,7 +558,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f762.png"
+      "image_url": "/images/formulas2/f762.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f761",
@@ -518,7 +569,8 @@
       "stage": "100일",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f761.png"
+      "image_url": "/images/formulas2/f761.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f760",
@@ -528,7 +580,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f760.png"
+      "image_url": "/images/formulas2/f760.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f759",
@@ -538,7 +591,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f759.png"
+      "image_url": "/images/formulas2/f759.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f758",
@@ -548,7 +602,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f758.png"
+      "image_url": "/images/formulas2/f758.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f757",
@@ -558,7 +613,8 @@
       "stage": "100일",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f757.png"
+      "image_url": "/images/formulas2/f757.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f756",
@@ -568,7 +624,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f756.png"
+      "image_url": "/images/formulas2/f756.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f755",
@@ -578,7 +635,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f755.png"
+      "image_url": "/images/formulas2/f755.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f754",
@@ -588,7 +646,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f754.png"
+      "image_url": "/images/formulas2/f754.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f676",
@@ -598,7 +657,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f676.png"
+      "image_url": "/images/formulas2/f676.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f675",
@@ -608,7 +668,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f675.png"
+      "image_url": "/images/formulas2/f675.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f674",
@@ -618,7 +679,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f674.png"
+      "image_url": "/images/formulas2/f674.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f747",
@@ -628,7 +690,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f747.png"
+      "image_url": "/images/formulas2/f747.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f746",
@@ -638,7 +701,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f746.png"
+      "image_url": "/images/formulas2/f746.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f745",
@@ -648,7 +712,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f745.png"
+      "image_url": "/images/formulas2/f745.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f744",
@@ -658,7 +723,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f744.png"
+      "image_url": "/images/formulas2/f744.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f358",
@@ -668,7 +734,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드",
-      "image_url": "/images/formulas2/f358.png"
+      "image_url": "/images/formulas2/f358.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f254",
@@ -678,7 +745,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드",
-      "image_url": "/images/formulas2/f254.png"
+      "image_url": "/images/formulas2/f254.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f753",
@@ -688,7 +756,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "네덜란드",
-      "image_url": "/images/formulas2/f753.png"
+      "image_url": "/images/formulas2/f753.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f752",
@@ -698,7 +767,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "네덜란드",
-      "image_url": "/images/formulas2/f752.png"
+      "image_url": "/images/formulas2/f752.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f751",
@@ -708,7 +778,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "네덜란드",
-      "image_url": "/images/formulas2/f751.png"
+      "image_url": "/images/formulas2/f751.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f601",
@@ -718,7 +789,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "",
-      "image_url": "/images/formulas2/f601.png"
+      "image_url": "/images/formulas2/f601.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f600",
@@ -728,7 +800,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "",
-      "image_url": "/images/formulas2/f600.png"
+      "image_url": "/images/formulas2/f600.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f738",
@@ -738,7 +811,8 @@
       "stage": "",
       "type": "imported",
       "origin": "",
-      "image_url": "/images/formulas2/f738.png"
+      "image_url": "/images/formulas2/f738.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f737",
@@ -748,7 +822,8 @@
       "stage": "",
       "type": "imported",
       "origin": "",
-      "image_url": "/images/formulas2/f737.png"
+      "image_url": "/images/formulas2/f737.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f736",
@@ -758,7 +833,8 @@
       "stage": "",
       "type": "imported",
       "origin": "",
-      "image_url": "/images/formulas2/f736.png"
+      "image_url": "/images/formulas2/f736.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f320",
@@ -768,7 +844,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f320.jpg"
+      "image_url": "/images/formulas2/f320.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f319",
@@ -778,7 +855,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f319.jpg"
+      "image_url": "/images/formulas2/f319.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f307",
@@ -788,7 +866,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f307.jpg"
+      "image_url": "/images/formulas2/f307.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f316",
@@ -798,7 +877,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f316.jpg"
+      "image_url": "/images/formulas2/f316.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f315",
@@ -808,7 +888,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f315.jpg"
+      "image_url": "/images/formulas2/f315.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f310",
@@ -818,7 +899,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f310.jpg"
+      "image_url": "/images/formulas2/f310.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f460",
@@ -828,7 +910,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f460.png"
+      "image_url": "/images/formulas2/f460.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f458",
@@ -838,7 +921,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f458.jpg"
+      "image_url": "/images/formulas2/f458.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f457",
@@ -848,7 +932,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f457.png"
+      "image_url": "/images/formulas2/f457.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f456",
@@ -858,7 +943,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f456.png"
+      "image_url": "/images/formulas2/f456.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f455",
@@ -868,7 +954,8 @@
       "stage": "4단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f455.jpg"
+      "image_url": "/images/formulas2/f455.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f684",
@@ -878,7 +965,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f684.png"
+      "image_url": "/images/formulas2/f684.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f683",
@@ -888,7 +976,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f683.png"
+      "image_url": "/images/formulas2/f683.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f682",
@@ -898,7 +987,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f682.png"
+      "image_url": "/images/formulas2/f682.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f687",
@@ -908,7 +998,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f687.png"
+      "image_url": "/images/formulas2/f687.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f686",
@@ -918,7 +1009,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f686.png"
+      "image_url": "/images/formulas2/f686.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f685",
@@ -928,7 +1020,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f685.png"
+      "image_url": "/images/formulas2/f685.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f681",
@@ -938,7 +1031,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f681.png"
+      "image_url": "/images/formulas2/f681.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f680",
@@ -948,7 +1042,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f680.png"
+      "image_url": "/images/formulas2/f680.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f679",
@@ -958,7 +1053,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f679.png"
+      "image_url": "/images/formulas2/f679.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f678",
@@ -968,7 +1064,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f678.png"
+      "image_url": "/images/formulas2/f678.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f677",
@@ -978,7 +1075,8 @@
       "stage": "4단계",
       "type": "imported",
       "origin": "스위스/독일",
-      "image_url": "/images/formulas2/f677.png"
+      "image_url": "/images/formulas2/f677.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f353",
@@ -988,7 +1086,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f353.png"
+      "image_url": "/images/formulas2/f353.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f352",
@@ -998,7 +1097,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f352.png"
+      "image_url": "/images/formulas2/f352.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f351",
@@ -1008,7 +1108,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f351.png"
+      "image_url": "/images/formulas2/f351.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f350",
@@ -1018,7 +1119,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f350.png"
+      "image_url": "/images/formulas2/f350.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f265",
@@ -1028,7 +1130,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f265.png"
+      "image_url": "/images/formulas2/f265.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f342",
@@ -1038,7 +1141,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f342.png"
+      "image_url": "/images/formulas2/f342.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f341",
@@ -1048,7 +1152,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f341.png"
+      "image_url": "/images/formulas2/f341.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f340",
@@ -1058,7 +1163,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f340.png"
+      "image_url": "/images/formulas2/f340.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f279",
@@ -1068,7 +1174,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f279.png"
+      "image_url": "/images/formulas2/f279.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f707",
@@ -1078,7 +1185,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f707.png"
+      "image_url": "/images/formulas2/f707.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f706",
@@ -1088,7 +1196,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f706.png"
+      "image_url": "/images/formulas2/f706.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f705",
@@ -1098,7 +1207,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "독일/오스트리아",
-      "image_url": "/images/formulas2/f705.png"
+      "image_url": "/images/formulas2/f705.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f396",
@@ -1108,7 +1218,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f396.png"
+      "image_url": "/images/formulas2/f396.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f395",
@@ -1118,7 +1229,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f395.png"
+      "image_url": "/images/formulas2/f395.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f231",
@@ -1128,7 +1240,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f231.png"
+      "image_url": "/images/formulas2/f231.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f394",
@@ -1138,7 +1251,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f394.png"
+      "image_url": "/images/formulas2/f394.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f393",
@@ -1148,7 +1262,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f393.png"
+      "image_url": "/images/formulas2/f393.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f239",
@@ -1158,7 +1273,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f239.png"
+      "image_url": "/images/formulas2/f239.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f392",
@@ -1168,7 +1284,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "호주",
-      "image_url": "/images/formulas2/f392.png"
+      "image_url": "/images/formulas2/f392.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f391",
@@ -1178,7 +1295,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "호주",
-      "image_url": "/images/formulas2/f391.png"
+      "image_url": "/images/formulas2/f391.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f185",
@@ -1188,7 +1306,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "호주",
-      "image_url": "/images/formulas2/f185.png"
+      "image_url": "/images/formulas2/f185.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f699",
@@ -1198,7 +1317,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "싱가포르",
-      "image_url": "/images/formulas2/f699.png"
+      "image_url": "/images/formulas2/f699.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f698",
@@ -1208,7 +1328,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "싱가포르",
-      "image_url": "/images/formulas2/f698.png"
+      "image_url": "/images/formulas2/f698.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f697",
@@ -1218,7 +1339,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "싱가포르",
-      "image_url": "/images/formulas2/f697.png"
+      "image_url": "/images/formulas2/f697.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f339",
@@ -1228,7 +1350,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f339.jpg"
+      "image_url": "/images/formulas2/f339.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f338",
@@ -1238,7 +1361,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f338.jpg"
+      "image_url": "/images/formulas2/f338.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f283",
@@ -1248,7 +1372,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f283.jpg"
+      "image_url": "/images/formulas2/f283.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f506",
@@ -1258,7 +1383,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "독일",
-      "image_url": "/images/formulas2/f506.png"
+      "image_url": "/images/formulas2/f506.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f505",
@@ -1268,7 +1394,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "독일",
-      "image_url": "/images/formulas2/f505.png"
+      "image_url": "/images/formulas2/f505.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f504",
@@ -1278,7 +1405,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "독일",
-      "image_url": "/images/formulas2/f504.png"
+      "image_url": "/images/formulas2/f504.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f750",
@@ -1288,7 +1416,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "독일",
-      "image_url": "/images/formulas2/f750.png"
+      "image_url": "/images/formulas2/f750.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f749",
@@ -1298,7 +1427,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "독일",
-      "image_url": "/images/formulas2/f749.png"
+      "image_url": "/images/formulas2/f749.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f748",
@@ -1308,7 +1438,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "독일",
-      "image_url": "/images/formulas2/f748.png"
+      "image_url": "/images/formulas2/f748.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f363",
@@ -1318,7 +1449,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f363.png"
+      "image_url": "/images/formulas2/f363.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f362",
@@ -1328,7 +1460,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f362.png"
+      "image_url": "/images/formulas2/f362.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f361",
@@ -1338,7 +1471,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f361.png"
+      "image_url": "/images/formulas2/f361.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f248",
@@ -1348,7 +1482,8 @@
       "stage": "4단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f248.png"
+      "image_url": "/images/formulas2/f248.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f670",
@@ -1358,7 +1493,8 @@
       "stage": "1단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f670.png"
+      "image_url": "/images/formulas2/f670.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f669",
@@ -1368,7 +1504,8 @@
       "stage": "2단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f669.png"
+      "image_url": "/images/formulas2/f669.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f668",
@@ -1378,7 +1515,8 @@
       "stage": "3단계",
       "type": "domestic",
       "origin": "한국",
-      "image_url": "/images/formulas2/f668.png"
+      "image_url": "/images/formulas2/f668.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f740",
@@ -1388,7 +1526,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "호주",
-      "image_url": "/images/formulas2/f740.png"
+      "image_url": "/images/formulas2/f740.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f739",
@@ -1398,7 +1537,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "호주",
-      "image_url": "/images/formulas2/f739.png"
+      "image_url": "/images/formulas2/f739.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f731",
@@ -1408,7 +1548,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "호주",
-      "image_url": "/images/formulas2/f731.png"
+      "image_url": "/images/formulas2/f731.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f331",
@@ -1418,7 +1559,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f331.png"
+      "image_url": "/images/formulas2/f331.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f330",
@@ -1428,7 +1570,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f330.jpg"
+      "image_url": "/images/formulas2/f330.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f298",
@@ -1438,7 +1581,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "뉴질랜드",
-      "image_url": "/images/formulas2/f298.jpg"
+      "image_url": "/images/formulas2/f298.jpg",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f474",
@@ -1448,7 +1592,8 @@
       "stage": "PRE",
       "type": "imported",
       "origin": "",
-      "image_url": "/images/formulas2/f474.png"
+      "image_url": "/images/formulas2/f474.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f653",
@@ -1458,7 +1603,8 @@
       "stage": "1단계",
       "type": "imported",
       "origin": "중국",
-      "image_url": "/images/formulas2/f653.png"
+      "image_url": "/images/formulas2/f653.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f652",
@@ -1468,7 +1614,8 @@
       "stage": "2단계",
       "type": "imported",
       "origin": "중국",
-      "image_url": "/images/formulas2/f652.png"
+      "image_url": "/images/formulas2/f652.png",
+      "kcal_per_100ml": 67
     },
     {
       "id": "f651",
@@ -1478,7 +1625,8 @@
       "stage": "3단계",
       "type": "imported",
       "origin": "중국",
-      "image_url": "/images/formulas2/f651.png"
+      "image_url": "/images/formulas2/f651.png",
+      "kcal_per_100ml": 67
     }
   ]
 }
