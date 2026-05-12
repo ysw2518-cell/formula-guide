@@ -400,7 +400,7 @@ export default function Home() {
                 {!selectedMaker ? "제조기를 먼저 선택해주세요" : "브랜드를 선택해주세요"}
               </p>
               <p className="text-sm text-gray-400 mt-1">
-                {!selectedMaker ? "왼쪽 패널에서 선택할 수 있어요" : "왼쪽 패널에서 브랜드를 골라보세요"}
+                {!selectedMaker ? "위에서 제조기를 선택해주세요" : "위에서 브랜드를 골라보세요"}
               </p>
             </div>
           )}
