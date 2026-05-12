@@ -200,8 +200,8 @@ export default function Home() {
           {([
             { key: 'home', label: '🔍 세팅 찾기' },
             { key: 'favorites', label: '⭐ 즐겨찾기' },
-            { key: 'calculator', label: '💧 계산기' },
             { key: 'guide', label: '📋 가이드' },
+            { key: 'calculator', label: '💧 계산기' },
           ] as const).map(({ key, label }) => (
             <button
               key={key}
